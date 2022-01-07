@@ -22,8 +22,8 @@ public class App
         System.out.println(SP.toString()); // Am I supposed to get the memory addresses here?
         System.out.println(SD.toString()); // ^
 
-        SP.getSalary(); // Why is this getting ignored?
-        SD.getSalary(); // ^
+        System.out.println(SP.getSalary());
+        System.out.println(SD.getSalary());
 
     }
 }
